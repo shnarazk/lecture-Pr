@@ -1,0 +1,68 @@
+\NeedsTeXFormat{LaTeX2e}
+%\PassOptionsToClass{handout}{beamer}
+\documentclass{beamer}
+\usepackage{beamerPack}
+\usepackage{bm}
+\usepackage[01]{../lecture}
+\subtitle{Introduction}
+\begin{document}
+
+\begin{frame}[fragile]{}
+\stain{0.01}{0.33}{20}{0.5\textwidth}{0.26\textheight}
+\titlepage
+\end{frame}
+
+\begin{frame}[fragile]{outline}{}
+\begin{tikzpicture}[
+    overlay
+    , xshift=0.423\pagewidth
+    , yshift=-0.3\pageheight
+]
+\begin{pgfonlayer}{background}
+\node[anchor=center] at (0,0) {\includegraphics[width=1.05\pagewidth]{ben-maguire-268306.jpg}};
+\end{pgfonlayer}
+\end{tikzpicture}
+\fontsize{8}{10}\selectfont
+\vfill
+\textcnd{\textcolor{white}{値が等しければ結果は同じはずという考え方を用いることにより，動作するプログラムを意味を変えずに書き方の違う別のプログラムへと変換することができる．}}
+
+\vfill
+\textcnd{\textcolor{white}{さらにこのアイデアを，型が等しければコンパイルエラーにはならないはずというように応用することで，プログラムをエラーを起こすことなく計算結果の違う別のプログラムへと変換することができる．}}
+
+\vfill
+\textcnd{\textcolor{white}{このように値や型にはある種の数学的な性質があり，それゆえプログラムそのものの数学的な取り扱いを可能にする．型の概念はプログラミング言語の研究において重要なテーマであり，様々な発展を遂げてきた．}}
+
+\vfill
+\textcolor{white}{型に関する理解を深めること，それがこの科目の目的である．}
+
+\vfill
+\end{frame}
+
+\section{型の計算}		%%%%%%%%
+\subsection{}
+
+\begin{frame}[fragile]{型に関する計算}{}
+\begin{codeof}{language=C}{}
+  int z = 10 + k;
+  printf("%d", z);
+\end{codeof}
+
+\pause
+\begin{codeof}{language=C}{C1:???は一意に決まるか}
+  int x = 10;
+  printf("%???\n", x);
+\end{codeof}
+
+\pause
+\begin{codeof}{language=C}{C2:???は一意に決まるか}
+  double x;
+  x = sin(31.415);
+  printf("%???\n", x);
+\end{codeof}%3行目の%以降の空欄に最もふさわしい英字語句を答えよ
+\texttt{printf}とは何引数なのか，何型なのか？
+\pause
+\begin{codeof}{language=C}{}
+  printf("please input: \n");
+\end{codeof}
+\end{frame}
+\end{document}

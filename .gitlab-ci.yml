@@ -1,0 +1,9 @@
+cache:
+  paths:
+    - 0*/PL-*.pdf
+
+make deploy:
+  stage: build
+  script:
+    - ~/.local/bin/syncCloud
+    - make deploy

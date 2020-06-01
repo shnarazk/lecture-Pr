@@ -2,22 +2,9 @@
 
 ### 構成
 
-1. Scratch
-   * 順序
-   * 繰り返し
-   * イベント
-   * 条件分岐
-   * 数学
-   * 同期
-2. P5js
-   * function
-   * library
-   * events
-   * loadJSON
-3. IOT
-   * Debug
-   * Debug
-   * Debug
+1. Scratch - Program Structures
+2. IOT - ?
+3. P5js - Modern Programming Language
 
 ### Schedule
 
@@ -29,7 +16,7 @@
 1. June 19. Scratch LEGO 導入, tracer
 1. June 22. Scratch LEGO デバッグ、iROBOT作成
 1. June 29. Scratch 構文まとめ、iROBOT作成2
-1. July 03. p5js イントロ, 関数、変数
+1. July 03. p5js イントロ, 関数、変数、記号入力に慣れる
 1. July 06. p5js 文法作画関数、色と形
 1. July 10  p5js 入力, マウス、キーボード
 1. July 13. p5js 条件分岐、繰り返し
@@ -52,3 +39,9 @@
 1. Sep. 14. p5js 作品作成、インタラクティブな動画
 1. Sep. 18. p5js 作品作成2、通信、改良
 1. Sep. 21. Javascript? Python?
+
+## Links
+
+- [Scratch](https://scratch.mit.edu/)
+- [p5js](https://p5js.org/)
+- [Generative Design](http://www.generative-gestaltung.de/2/)

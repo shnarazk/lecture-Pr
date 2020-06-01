@@ -22,23 +22,26 @@
 1. July 13. p5js 条件分岐、繰り返し
 1. July 17. p5js 配列、リスト
 1. July 20. p5js 配列と繰返し
-1. July 24. p5js アルゴリズム：検索
-1. July 27. p5js アルゴリズム：整列
-1. July 31. p5js クラスとメソッド
-1. Aug. 03. p5js 数学的グラフ、数学関数, 2Dグラフ
-1. Aug. 07. p5js 3D処理、パッチによる3Dグラフ
-1. Aug. 10. p5js 再帰処理、空間充填パターン
-1. Aug. 14. p5js 再帰による空間充填パターン実習
-1. Aug. 17. p5js 作品作成、Scratchからの移植
-1. Aug. 21. p5js ビデオ入力と加工
-1. Aug. 24. p5js 拡張機能: Geomap
-1. Aug. 28. p5js loadJSON, 天気データ
-1. Sep. 04. p5js JSONの処理
-1. Sep. 07. p5js 別のサーバ（最新ニュース）からデータ取得する演習
-1. Sep. 11. p5js ビデオ処理、日本語は使えないか？
-1. Sep. 14. p5js 作品作成、インタラクティブな動画
-1. Sep. 18. p5js 作品作成2、通信、改良
-1. Sep. 21. Javascript? Python?
+1. July 24. 祝日
+1. July 27. p5js アルゴリズム：検索
+1. July 31. p5js アルゴリズム：整列
+1. Aug. 03. p5js クラスとメソッド
+1. Aug. 07. p5js 数学的グラフ、数学関数, 2Dグラフ
+1. Aug. 10. 祝日
+1. Aug. 14. p5js 3D処理、パッチによる3Dグラフ
+1. Aug. 17. p5js 再帰処理、空間充填パターン
+1. Aug. 21. p5js 再帰による空間充填パターン実習
+1. Aug. 24. p5js 作品作成、Scratchからの移植
+1. Aug. 28. p5js ビデオ入力と加工
+1. Aug. 31. p5js 拡張機能: Geomap
+1. Sep. 04. p5js loadJSON, 天気データ
+1. Sep. 07. p5js JSONの処理
+1. Sep. 11. p5js 別のサーバ（最新ニュース）からデータ取得する演習
+1. Sep. 14. p5js ビデオ処理、日本語は使えないか？
+1. Sep. 18. p5js 作品作成、インタラクティブな動画
+1. Sep. 21. 祝日
+1. Sep. 25. p5js 作品作成2、通信、改良
+1. Sep. 28. Javascript? Python?
 
 ## Links
 

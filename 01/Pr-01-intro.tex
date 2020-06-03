@@ -8,31 +8,7 @@
 \begin{document}
 
 \begin{frame}[fragile]{}
-%\stain{0.01}{0.33}{20}{0.5\textwidth}{0.26\textheight}
 \titlepage
-\end{frame}
-
-\begin{frame}[fragile]{outline}{}
-\begin{tikzpicture}[
-    overlay
-    , xshift=0.423\pagewidth
-    , yshift=-0.3\pageheight
-]
-\begin{pgfonlayer}{background}
-\node[anchor=center] at (0,0.7) {\includegraphics[width=1.1\pagewidth]{ben-maguire-268306.jpg}};
-\end{pgfonlayer}
-\end{tikzpicture}
-\fontsize{8}{10}\selectfont
-\vfill
-\textcnd{\textcolor{white}{情報を処理}}
-
-\vfill
-\textcnd{\textcolor{white}{コンピュータをプログラミング}}
-
-\vfill
-\textcolor{white}{アイデアの実現}
-
-\vfill
 \end{frame}
 
 \section{イントロ}		%%%%%%%%
@@ -58,8 +34,7 @@
 \end{itemize}
 
 \vfill
-\pause
-プログラムを作ればそれまでできなかったことができる
+プログラムを作ればできなかったことができる
 
 \begin{itemize}%\itemsep8pt
 \item 自分で作ったゲーム
@@ -68,36 +43,22 @@
 \end{frame}
 
 \begin{frame}[fragile]{プログラムを作ろう}{}
+\begin{itemize}\itemsep20pt
+\item いろいろなコンピュータへの「指示」が用意されている
+\item 「指示」を並べると「プログラム」になる
+\end{itemize}
 
-いろいろなコンピュータへの「指示」が用意されている
-
-「指示」を並べると「プログラム」になる
-
-難しい？
-\end{frame}
-
-
-\begin{frame}[fragile]{Scratch}{}
-これから使うのはScratchというプログラミングのためのアプリ
-
-\vfill
+\begin{block}{Scratch}
 \begin{itemize}\itemsep8pt
 \item 「指示」の数はそれほど多くない
 \item 「指示」が日本語の説明付きのタイルになっている
 \item タイルの色や形が並べるときのヒントになっている
 \end{itemize}
+\end{block}
 \end{frame}
 
-\section{実践}		%%%%%%%%
+\section{Scratch実践}		%%%%%%%%
 \subsection{}
-
-
-\begin{frame}[fragile]{Scratch $\to$ 作る}{}
-\begin{itemize}%\itemsep8pt
-\item　画面の見方
-\item　実行と停止
-\end{itemize}
-\end{frame}
 
 \begin{frame}[fragile]{イントロ}{}
 \tikz[FULLSCREEN]{\node at (0,0) {\pgfimage[width=0.9\pagewidth]{Scratch-screen.png}};}
@@ -111,111 +72,93 @@
 \end{enumerate}
 
 \vfill
-\pause
-3つの組み合わせ
+3つの「指示」の組み合わせで構成されたプログラム
 
-\vfill
-\pause
-\textbyhand{人生初のプログラムは3つの「指示」を組み合わせました。}
 \end{frame}
 
-\begin{frame}[fragile]{プログラムの改良：指示の追加}{}
-\begin{enumerate}[<+->]\itemsep20pt
+\begin{frame}[fragile]{プログラムの拡張1}{}
+\begin{enumerate}\itemsep20pt
 \item 旗をクリックしたら実行が始まる機能
 \item 別の場所に移動する
 \item 移動が終わったらアクション
 \item さらに別の場所に移動する
 \end{enumerate}
 \vfill
-\pause
 プログラムの変更が必要：使う指示の数を増やしてよい
 \vfill
 \pause
-指示が長くなった $\to$ 難しい注文に対応できた
+指示が長くなった $\to$ プログラムの高度化
 \end{frame}
 
-\begin{frame}[fragile]{プログラムの改良：止まらないプログラムへ}{}
+\begin{frame}[fragile]{プログラムの拡張2}{}
 \begin{itemize}\itemsep30pt
 \item
-「軌跡を残しながら別の場所に移動して、アクションする」を3回繰り返す
+「別の場所に移動して、アクションする」を3回繰り返す
 \item
-「軌跡を残しながら別の場所に移動して、アクションする」を無限に繰り返す
+「別の場所に移動して、アクションする」を無限に繰り返す
 \end{itemize}
 
 \vfill
-いろいろな「指示」の中で使えそうなものをことごとく試さなければ。
+いろいろな「指示」の中で使えそうなものを試してみる
 \end{frame}
 
-\begin{frame}[fragile]{新しい能力：移動の軌跡を残す}{}
-\begin{itemize}[<+->]\itemsep30pt
+\begin{frame}[fragile]{プログラムの拡張3}{}
+\begin{exampleblock}{動いた軌跡を表示しよう}
+\begin{itemize}\itemsep10pt
 \item
 拡張機能ペン
 \item
 ペンを下ろして移動すると軌跡が残る
 \end{itemize}
+\end{exampleblock}
 
-\vfill
-いろいろな「指示」の中で使えそうなものをことごとく試さなければ。
+\begin{itemize}\itemsep20pt
+\item
+「軌跡を残しながら別の場所に移動して、アクションする」を3回繰り返す
+\item
+「軌跡を残しながら別の場所に移動して、アクションする」を無限に繰り返す
+\end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{応用}{}
-\begin{enumerate}\itemsep8pt
-\item 正方形を描いて正確に元の場所に戻ってくるには？
-\item ゆっくり正方形を描いて正確に元の場所に戻ってくるには？
-\item ゆっくり正三角形を描いて正確に元の場所に戻ってくるには？
-\item ゆっくり正5角形を描いて正確に元の場所に戻ってくるには？
-\end{enumerate}
-\end{frame}
-
-\begin{frame}[fragile]{正方形を描いて正確に元の場所に戻ってくるには？}{}
-
-そのような「指示」はないので工夫が必要
-
-\vfill
-どこかへの移動ではなく、自分で決めた1辺の長さ（座標）で移動場所を考える
-
-\vfill
-\pause
-「指示」の組み合わせ方の工夫＋「指示」への指示の工夫
-\end{frame}
-
-\begin{frame}[fragile]{ゆっくり正方形を描いて正確に元の場所に戻ってくるには？}{}
-
-いきなり最終地点に移動するとゆっくりにならない
-
-\vfill
-\pause
-「指示」の組み合わせ方の工夫＋「指示」への指示の工夫
-\end{frame}
-
-\begin{frame}[fragile]{まだまだ応用}{}
-\begin{enumerate}\itemsep8pt
-\item \textcolor{red}{（終了）}\textcolor{gray}{正方形を描いて正確に元の場所に戻ってくるには？}
-\item \textcolor{red}{（終了）}\textcolor{gray}{ゆっくり正方形を描いて正確に元の場所に戻ってくるには？}
-\item ゆっくり正三角形を描いて正確に元の場所に戻ってくるには？
-\item ゆっくり正5角形を描いて正確に元の場所に戻ってくるには？
-\end{enumerate}
-\end{frame}
+\section{課題}		%%%%%%%%
+\subsection{}
 
 \begin{frame}[fragile]{全く違う応用}{}
+\begin{exampleblock}{同時進行}
 \begin{enumerate}\itemsep8pt
 \item コスチュームを使って移動するときは歩くアニメーションをする
 \item 移動し終わったらアニメーションも停止する
 \end{enumerate}
+\end{exampleblock}
+\end{frame}
 
-〇〇しながら△△する
+\begin{frame}[fragile]{演習課題}{}
+\begin{enumerate}\itemsep8pt
+\item 正方形を描いて正確に元の場所に戻ってくるには？
+\begin{itemize}%\itemsep8pt
+\item そのような「指示」はないので工夫が必要
+\item どこかへの移動ではなく、自分で決めた1辺の長さ（座標）で移動場所を考える
+\end{itemize}
+
+\item ゆっくり正方形を描いて正確に元の場所に戻ってくる
+\begin{itemize}%\itemsep8pt
+\item どうやって時間を掛けて移動すればいいだろうか
+\end{itemize}
+\item ゆっくり正三角形を描いて正確に元の場所に戻ってくる
+\item ゆっくり正5角形を描いて正確に元の場所に戻ってくる
+\end{enumerate}
 \end{frame}
 
 \section{まとめ}		%%%%%%%%
 \subsection{}
 
-\begin{frame}[fragile]{到達目標}{}
-\begin{itemize}[<+->]\itemsep8pt
+\begin{frame}[fragile]{確認項目}{}
+\begin{itemize}\itemsep18pt
 \item Scratchってなに？
 \item Scratchってどうすれば使える？
 \item Scratchで画面のどれが「指示」？
 \item Scratchの画面のどこが自分で作ったプログラム？
-\item どんなプログラムができる？ゲームはできた？
+\item どんなプログラムができる？
 \end{itemize}
 \end{frame}
 

@@ -92,7 +92,7 @@
 \subsection{}
 
 
-\begin{frame}[fragile]{イントロ}{}
+\begin{frame}[fragile]{Scratch $\to$ 作る}{}
 \begin{itemize}%\itemsep8pt
 \item　画面の見方
 \item　実行と停止
@@ -119,11 +119,12 @@
 \textbyhand{人生初のプログラムは3つの「指示」を組み合わせました。}
 \end{frame}
 
-\begin{frame}[fragile]{プログラムの改良}{}
+\begin{frame}[fragile]{プログラムの改良：指示の追加}{}
 \begin{enumerate}[<+->]\itemsep20pt
 \item 旗をクリックしたら実行が始まる機能
-\item 別の場所に、時間を掛け、中間地点を経由しながら、移動する
+\item 別の場所に移動する
 \item 移動が終わったらアクション
+\item さらに別の場所に移動する
 \end{enumerate}
 \vfill
 \pause
@@ -133,57 +134,77 @@
 指示が長くなった $\to$ 難しい注文に対応できた
 \end{frame}
 
-\begin{frame}[fragile]{応用}{}
-\begin{itemize}[<+->]\itemsep30pt
+\begin{frame}[fragile]{プログラムの改良：止まらないプログラムへ}{}
+\begin{itemize}\itemsep30pt
 \item
-（動き方は自由でいいので）別の場所に移動して、アクションしてから、同じように移動して元の場所に戻ってくる
+「軌跡を残しながら別の場所に移動して、アクションする」を3回繰り返す
 \item
-別の場所に移動して元の場所に戻ってくるを3回繰り返す
-\item
-別の場所に移動して元の場所に戻ってくるを無限に繰り返す
+「軌跡を残しながら別の場所に移動して、アクションする」を無限に繰り返す
 \end{itemize}
 
 \vfill
 いろいろな「指示」の中で使えそうなものをことごとく試さなければ。
 \end{frame}
 
-\begin{frame}[fragile]{まだまだ応用}{}
+\begin{frame}[fragile]{新しい能力：移動の軌跡を残す}{}
+\begin{itemize}[<+->]\itemsep30pt
+\item
+拡張機能ペン
+\item
+ペンを下ろして移動すると軌跡が残る
+\end{itemize}
+
+\vfill
+いろいろな「指示」の中で使えそうなものをことごとく試さなければ。
+\end{frame}
+
+\begin{frame}[fragile]{応用}{}
 \begin{enumerate}\itemsep8pt
-\item 加速しながら移動しているように見せるには？
 \item 正方形を描いて正確に元の場所に戻ってくるには？
-\item 正三角形を描いて正確に元の場所に戻ってくるには？
-\item 正$N$角形を描いて正確に元の場所に戻ってくるには？
-\item 移動する前にキーボードでNの値を指示できるようにするには？
-\item 別のキーを押すと強制的に元の位置に戻るようにするには？
-\item キーを押している間だけ移動速度が加速するには？
+\item ゆっくり正方形を描いて正確に元の場所に戻ってくるには？
+\item ゆっくり正三角形を描いて正確に元の場所に戻ってくるには？
+\item ゆっくり正5角形を描いて正確に元の場所に戻ってくるには？
 \end{enumerate}
 \end{frame}
 
-\begin{frame}[fragile]{加速しながら移動しているように見せるには？}{}
+\begin{frame}[fragile]{正方形を描いて正確に元の場所に戻ってくるには？}{}
 
-そのような「指示」はないので工夫が必要。
+そのような「指示」はないので工夫が必要
 
 \vfill
-先ほど「ゆっくり移動」させるように改良できた。応用できないか？
+どこかへの移動ではなく、自分で決めた1辺の長さ（座標）で移動場所を考える
 
 \vfill
 \pause
 「指示」の組み合わせ方の工夫＋「指示」への指示の工夫
 \end{frame}
 
+\begin{frame}[fragile]{ゆっくり正方形を描いて正確に元の場所に戻ってくるには？}{}
+
+いきなり最終地点に移動するとゆっくりにならない
+
+\vfill
+\pause
+「指示」の組み合わせ方の工夫＋「指示」への指示の工夫
+\end{frame}
 
 \begin{frame}[fragile]{まだまだ応用}{}
 \begin{enumerate}\itemsep8pt
-\item \textcolor{red}{（終了）}\textcolor{gray}{加速しながら移動しているように見せるには？}
-\item 正方形を描いて正確に元の場所に戻ってくるには？
-\item 正三角形を描いて正確に元の場所に戻ってくるには？
-\item 正$N$角形を描いて正確に元の場所に戻ってくるには？
-\item 移動する前にキーボードでNの値を指示できるようにするには？
-\item 別のキーを押すと強制的に元の位置に戻るようにするには？
-\item キーを押している間だけ移動速度が加速するには？
+\item \textcolor{red}{（終了）}\textcolor{gray}{正方形を描いて正確に元の場所に戻ってくるには？}
+\item \textcolor{red}{（終了）}\textcolor{gray}{ゆっくり正方形を描いて正確に元の場所に戻ってくるには？}
+\item ゆっくり正三角形を描いて正確に元の場所に戻ってくるには？
+\item ゆっくり正5角形を描いて正確に元の場所に戻ってくるには？
 \end{enumerate}
 \end{frame}
 
+\begin{frame}[fragile]{全く違う応用}{}
+\begin{enumerate}\itemsep8pt
+\item コスチュームを使って移動するときは歩くアニメーションをする
+\item 移動し終わったらアニメーションも停止する
+\end{enumerate}
+
+〇〇しながら△△する
+\end{frame}
 
 \section{まとめ}		%%%%%%%%
 \subsection{}

@@ -1,0 +1,145 @@
+\NeedsTeXFormat{LaTeX2e}
+%\PassOptionsToClass{handout}{beamer}
+\documentclass{beamer}
+\usepackage{beamerPack}
+\usepackage{bm}
+\usepackage[01]{../lecture}
+\subtitle{制御構造}
+\begin{document}
+
+\begin{frame}[fragile]{}
+\titlepage
+\end{frame}
+
+\section{イントロ}		%%%%%%%%
+\subsection{}
+
+\begin{frame}[fragile]{プログラムの流れの制御}{}
+\begin{itemize}\itemsep8pt
+\item 繰り返す
+\item 条件次第で実行する
+\item メッセージを送る・受け取る
+\item 名前をつける
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{プログラムの流れの制御}{}
+\begin{exampleblock}{繰り返す}
+\begin{enumerate}%\itemsep8pt
+\item 条件（無条件も含む）: ブロックの形は？
+\item 繰り返す「指示」
+\end{enumerate}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{繰り返しの練習1}{}
+\begin{itemize}%\itemsep8pt
+\item
+三角形を書きながら、各頂点で360度回るアニメーションをする
+\item 
+ヒント：繰り返しの中で繰り返し
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{条件次第で実行する}{}
+条件文または条件分岐
+
+\begin{exampleblock}{条件次第で実行する：ブロックの色は}
+\begin{enumerate}\itemsep8pt
+\item 条件（無条件も含む）: ブロックの形は
+\item 条件が成立したときの「指示」
+\item （条件が成立しなかったときの「指示」）
+\end{enumerate}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{条件判断の練習}{}
+\begin{exampleblock}{問題1}
+\begin{itemize}%\itemsep8pt
+\item
+三角形を書きながら、各頂点で、以下の2択を実行
+\begin{itemize}%\itemsep8pt
+\item 今いるところのX座標が正の数ならニャーと鳴く。
+\item 今いるところのX座標が正の数でないなら特に何もしない。
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+
+\begin{exampleblock}{問題2}
+\begin{itemize}%\itemsep8pt
+\item
+三角形を書きながら、各頂点で、以下の2択を実行
+\begin{itemize}%\itemsep8pt
+\item 今いるところのX座標が正の数ならニャーと鳴く。
+\item 今いるところのX座標が正の数でないならペンの色を変える
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{様々な条件}{}
+\begin{itemize}%\itemsep8pt
+\item スプライトのX座標やY座標、それを使った計算結果
+\item マウスのX座標やY座標、距離などを使った計算結果
+\item 別のスプライトのX座標やY座標、距離などを使った計算結果
+\item キーボードで入力した文字
+\end{itemize}
+
+\begin{exampleblock}{問題3}
+\begin{itemize}%\itemsep8pt
+\item
+三角形を書きながら、各頂点で、以下の2択を実行
+\begin{itemize}%\itemsep8pt
+\item マウスとの距離が50以下ならニャーと鳴く。
+\item そうでないなら何もしない。
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{様々な条件}{}
+\begin{exampleblock}{問題4}
+スプライトを2つ追加します。
+\begin{itemize}%\itemsep8pt
+\item
+「どこかの場所に移動する」を繰り返しながら、以下の2択を実行
+\begin{itemize}%\itemsep8pt
+\item 追加したスプライトとの距離が50以下ならニャーとなく。
+\item そうでないなら何もしない。
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{}{}
+もっといろいろな条件を使って動作を変更したい
+\begin{itemize}%\itemsep8pt
+\item 辺の数が2なら、描けないので、表示しない
+\item 辺の数が20以上なら、区別がつかないので、表示しない
+\item 奇数の辺と偶数番目の辺で、ペンの色を変えたい（2択）
+\item 今日の日付が偶数なら、、、
+\item 辺の長さを指定できるようにしたい
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{}{}
+実行する度に変化する数値：変数
+\begin{itemize}%\itemsep8pt
+\item 「辺の数」変数
+\item 「辺の数」変数
+\item 「何番目の辺か」変数
+\item 「今日の日付」変数
+\item  「辺の長さ」変数
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{}{}
+\begin{enumerate}%\itemsep8pt
+\item 何番目の辺かを表す変数を作る
+\item 何番目の辺かを表す変数を0に設定する
+\item 辺を描いたら何番目の辺かを表す変数を1増やす
+\item 何番目の辺かを表す変数が偶数か奇数かで2択をする
+\end{enumerate}
+\end{frame}
+
+\end{document}

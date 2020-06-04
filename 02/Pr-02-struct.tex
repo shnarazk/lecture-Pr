@@ -2,8 +2,8 @@
 %\PassOptionsToClass{handout}{beamer}
 \documentclass{beamer}
 \usepackage{beamerPack}
-\usepackage{bm}
-\usepackage[01]{../lecture}
+%\usepackage{bm}
+\usepackage[02]{../lecture}
 \subtitle{制御構造}
 \begin{document}
 
@@ -11,7 +11,7 @@
 \titlepage
 \end{frame}
 
-\section{イントロ}		%%%%%%%%
+\section{制御構造}		%%%%%%%%
 \subsection{}
 
 \begin{frame}[fragile]{プログラムの流れの制御}{}
@@ -23,44 +23,74 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{プログラムの流れの制御}{}
-\begin{exampleblock}{繰り返す}
+\section{繰り返し}		%%%%%%%%
+\subsection{}
+
+\begin{frame}[fragile]{}{}
+\begin{exampleblock}{繰り返し}
 \begin{enumerate}%\itemsep8pt
-\item 条件（無条件も含む）: ブロックの形は？
+\item 回数指定（丸）、終了条件なし、終了条件あり（菱形）
 \item 繰り返す「指示」
 \end{enumerate}
 \end{exampleblock}
+
+\begin{center}
+\includegraphics[width=0.7\pagewidth]{loop1.png}
+\includegraphics[width=0.7\pagewidth]{loop2.png}
+\end{center}
 \end{frame}
 
-\begin{frame}[fragile]{繰り返しの練習1}{}
+\begin{frame}[fragile]{丸いもの}{}
+\begin{itemize}%\itemsep8pt
+\item 数
+\item 演算（計算）：緑
+\item 変数
+\end{itemize}
+緑以外にも丸いものは色々あるので注意
+\end{frame}
+
+\begin{frame}[fragile]{菱形}{}
+\begin{itemize}%\itemsep8pt
+\item 大きいかどうか、小さいかどうか、等しいかどうか
+\item かつ、または、ではない
+\item 含まれるかどうか
+\end{itemize}
+どれも2択、緑以外にも菱形は色々あるので注意
+\end{frame}
+
+\begin{frame}[fragile]{繰り返しの練習}{}
 \begin{itemize}%\itemsep8pt
 \item
-三角形を書きながら、各頂点で360度回るアニメーションをする
-\item 
-ヒント：繰り返しの中で繰り返し
+どこかに行くを無限に繰り返しながら、各頂点で360度回るアニメーションをする
+（移動の繰り返しと回転の繰り返しの関係）
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{条件次第で実行する}{}
-条件文または条件分岐
+\section{条件実行}		%%%%%%%%
+\subsection{}
 
-\begin{exampleblock}{条件次第で実行する：ブロックの色は}
+\begin{frame}[fragile]{}{}
+\begin{exampleblock}{条件次第で実行する：オレンジ色}
 \begin{enumerate}\itemsep8pt
-\item 条件（無条件も含む）: ブロックの形は
+\item 条件（無条件も含む）: 菱形
 \item 条件が成立したときの「指示」
 \item （条件が成立しなかったときの「指示」）
 \end{enumerate}
 \end{exampleblock}
+\begin{center}
+\includegraphics[width=0.7\pagewidth]{cond.png}
+\end{center}
+
 \end{frame}
 
 \begin{frame}[fragile]{条件判断の練習}{}
 \begin{exampleblock}{問題1}
 \begin{itemize}%\itemsep8pt
 \item
-三角形を書きながら、各頂点で、以下の2択を実行
+どこかに行くを無限に繰り返しながら、各頂点に来たときで、以下を実行
 \begin{itemize}%\itemsep8pt
 \item 今いるところのX座標が正の数ならニャーと鳴く。
-\item 今いるところのX座標が正の数でないなら特に何もしない。
+\item 今いるところのX座標が正の数でないなら何もしない。
 \end{itemize}
 \end{itemize}
 \end{exampleblock}
@@ -68,10 +98,10 @@
 \begin{exampleblock}{問題2}
 \begin{itemize}%\itemsep8pt
 \item
-三角形を書きながら、各頂点で、以下の2択を実行
+どこかに行くを無限に繰り返しながら、各頂点に来たとき、以下を実行
 \begin{itemize}%\itemsep8pt
 \item 今いるところのX座標が正の数ならニャーと鳴く。
-\item 今いるところのX座標が正の数でないならペンの色を変える
+\item 今いるところのX座標が正の数でないならペンの色を少し変える
 \end{itemize}
 \end{itemize}
 \end{exampleblock}
@@ -79,30 +109,30 @@
 
 \begin{frame}[fragile]{様々な条件}{}
 \begin{itemize}%\itemsep8pt
-\item スプライトのX座標やY座標、それを使った計算結果
-\item マウスのX座標やY座標、距離などを使った計算結果
-\item 別のスプライトのX座標やY座標、距離などを使った計算結果
-\item キーボードで入力した文字
+\item マウスのX座標やY座標、距離などを使った計算結果：マウスの場所まで近いかどうか
+\item 別のスプライトのX座標やY座標、距離などを使った計算結果：別のスプライトに衝突したかどうか
+\item キーボードで入力した文字の判定：スペースキーが今推されているかどうか
 \end{itemize}
+\end{frame}
 
-\begin{exampleblock}{問題3}
+\begin{frame}[fragile]{様々な条件}{}
+
+\begin{exampleblock}{マウスを使った条件}
 \begin{itemize}%\itemsep8pt
 \item
-三角形を書きながら、各頂点で、以下の2択を実行
+どこかに行くを無限に繰り返しながら、各頂点に来たとき、以下の2択を実行
 \begin{itemize}%\itemsep8pt
-\item マウスとの距離が50以下ならニャーと鳴く。
+\item マウスとの距離が20以下ならニャーと鳴く。
 \item そうでないなら何もしない。
 \end{itemize}
 \end{itemize}
 \end{exampleblock}
-\end{frame}
 
-\begin{frame}[fragile]{様々な条件}{}
-\begin{exampleblock}{問題4}
+\begin{exampleblock}{別のスプライトとの衝突}
 スプライトを2つ追加します。
 \begin{itemize}%\itemsep8pt
 \item
-「どこかの場所に移動する」を繰り返しながら、以下の2択を実行
+どこかに行くを無限に繰り返しながら、各頂点に来たとき、以下の2択を実行
 \begin{itemize}%\itemsep8pt
 \item 追加したスプライトとの距離が50以下ならニャーとなく。
 \item そうでないなら何もしない。
@@ -114,32 +144,58 @@
 \begin{frame}[fragile]{}{}
 もっといろいろな条件を使って動作を変更したい
 \begin{itemize}%\itemsep8pt
-\item 辺の数が2なら、描けないので、表示しない
+\item 辺の数が0や1なら、描けないので、表示しない
 \item 辺の数が20以上なら、区別がつかないので、表示しない
-\item 奇数の辺と偶数番目の辺で、ペンの色を変えたい（2択）
-\item 今日の日付が偶数なら、、、
-\item 辺の長さを指定できるようにしたい
+\item 奇数番目の辺と偶数番目の辺で、ペンの色を変えたい（2択）
 \end{itemize}
+そのようなブロックはない
 \end{frame}
 
-\begin{frame}[fragile]{}{}
-実行する度に変化する数値：変数
+\begin{frame}[fragile]{変数}{}
+数値を覚えるための「変数」を作ることができる
 \begin{itemize}%\itemsep8pt
-\item 「辺の数」変数
-\item 「辺の数」変数
-\item 「何番目の辺か」変数
-\item 「今日の日付」変数
-\item  「辺の長さ」変数
+\item 「辺の数」用の変数を作る
+\item 「何番目の辺か」用の変数を作る
 \end{itemize}
+
+\begin{center}
+\includegraphics[width=0.7\pagewidth]{var.png}
+\end{center}
+
+\vfill
+変数を作ったら、条件で使える
 \end{frame}
 
 \begin{frame}[fragile]{}{}
-\begin{enumerate}%\itemsep8pt
+偶数かそうでないかを条件として使う場合
+\begin{enumerate}\itemsep8pt
 \item 何番目の辺かを表す変数を作る
-\item 何番目の辺かを表す変数を0に設定する
+\item 最初に何番目の辺かを表す変数を0に設定する
 \item 辺を描いたら何番目の辺かを表す変数を1増やす
-\item 何番目の辺かを表す変数が偶数か奇数かで2択をする
+\item 何番目の辺かを表す変数が偶数か奇数かで2択をする（2で割り切れたら偶数）
 \end{enumerate}
 \end{frame}
 
+\begin{frame}[fragile]{演習}{}
+\begin{exampleblock}{特別扱い}
+どこかに行くを無限に繰り返しながら、3個目の頂点に来たとき「ニャー」となく
+\end{exampleblock}
+
+\pause
+
+\begin{exampleblock}{マウスを使った条件の高度化}
+\begin{itemize}%\itemsep8pt
+\item
+どこかに行くを無限に繰り返しながら、各頂点に来たとき、以下の2択を実行
+\begin{itemize}%\itemsep8pt
+\item マウスとの距離が20以下で、しかも＝「かつ」まだ1度も鳴いていない、ならば「ニャー」と鳴く
+\item そうでないなら何もしない
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{}{}
+作品制作の時間
+\end{frame}
 \end{document}

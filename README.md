@@ -18,7 +18,7 @@
 1. June 29. Scratch 動画の入力
 1. July 03. Scratch 面積の検出
 1. July 06. Scratch 動画利用ゲーム作り
-1. July 10  Scratch 動画利用ゲーム作り2、レポート作成
+1. July 10. Scratch 動画利用ゲーム作り2、レポート作成
 1. July 13. Scratch LEGO イントロ
 1. July 17. Scratch LEGO リモコン操作
 1. July 20. Scratch LEGO 加速度の実現

@@ -9,8 +9,62 @@
 ### Schedule
 
 1. June 03. Scratch 導入 + Scratch 自習
+1. June 05. Scratch 条件分岐、繰返し, メッセージ、変数
+1. June 08. Scratch ゲーム作り
+1. June 12. Scratch 加速度の実現
+1. June 15. Scratch ストーリー作り
+1. June 19. Scratch 画像の取り込み、BGMの追加
+1. June 22. Scratch ストーリーの完成、レポート作成
+1. June 29. Scratch 動画の入力
+1. July 03. Scratch 面積の検出
+1. July 06. Scratch 動画利用ゲーム作り
+1. July 10  Scratch 動画利用ゲーム作り2、レポート作成
+1. July 13. Scratch LEGO イントロ
+1. July 17. Scratch LEGO 線のトレース
+1. July 20. Scratch LEGO 障害物の検知
+1. July 24. 祝日
+1. July 27. Scratch LEGO 作品の完成、レポート作成
+1. July 31. p5js 文法作画関数、色と形入力
+1. Aug. 03. p5js マウス、キーボード
+1. Aug. 07. p5js 条件分岐、繰り返し
+1. Aug. 10. 祝日
+1. Aug. 14. p5js Scratchからの簡単な移植
+1. Aug. 17. p5js 抽象画像の自律的アニメーション
+1. Aug. 21. p5js 抽象画像の3体アニメーション
+1. Aug. 24. p5js 配列？
+1. Aug. 28. p5js 抽象画像の群アニメーション（蛇）
+1. Aug. 31. p5js クラスとメソッド
+1. Sep. 04. p5js 個性的群アニメーション
+1. Sep. 07. p5js 3次元オブジェクト
+1. Sep. 11. p5js 3次元オブジェクト、テクスチャ、動き
+1. Sep. 14. p5js ロボットの作成
+1. Sep. 18. p5js ロボットの移動
+1. Sep. 21. 祝日
+1. Sep. 25. p5js Scratchからの移植
+1. Sep. 28. p5js 音との連動
+1. Oct. ??. p5js ビデオ入力と加工
+1. Oct. ??. p5js ビデオ入力の利用、作品作成
+1. この先があるなら業務用言語のイントロ
+
+### Uncertain
+
+* loadJSON, 天気データJSONの処理
+* 別のサーバ（最新ニュース）からデータ取得する演習
+* 作品作成、インタラクティブな動画
+* 作品作成2、通信、改良
+
+### Canceled
+
+* 拡張機能: Geomap、わかってない
+* 数学的グラフ、数学関数, 2Dグラフ：無理
+* 再帰処理、空間充填パターン：再帰は無理
+* 再帰による空間充填パターン実習：再帰は無理
+
+### Original Schedule
+
+1. June 03. Scratch 導入 + Scratch 自習
 1. June 05. Scratch 条件分岐、繰返し + 構文
-1. June 08. Scratch multi-splite, message
+1. June 08. Scratch multi-sprite, message
 1. June 12. Scratch 様々な入力 + 画像処理
 1. June 15. Scratch 文法のまとめ+　数学グラフ, ゲーム作り
 1. June 19. Scratch LEGO 導入, tracer

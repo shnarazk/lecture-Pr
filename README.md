@@ -13,7 +13,7 @@
 1. June 08. Scratch ゲーム作り
 1. June 12. Scratch 加速度の実現
 1. June 15. Scratch ストーリー作り
-1. June 19. Scratch 画像の取り込み、BGMの追加
+1. June 19. Scratch 画像の取り込み、BGMの追加（何週でも伸ばしてよし）
 1. June 22. Scratch ストーリーの完成、レポート作成
 1. June 29. Scratch 動画の入力
 1. July 03. Scratch 面積の検出

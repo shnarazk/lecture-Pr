@@ -1,53 +1,45 @@
 # lecture-Pr: プログラミング
 
-### 構成
-
-1. Scratch - Program Structures
-2. IOT - ?
-3. P5js - Modern Programming Language
-
-### Schedule
-
-1. June 03. Scratch 導入 + Scratch 自習
-1. June 05. Scratch 条件分岐、繰返し, メッセージ、変数
-1. June 08. Scratch カードを終わらせる。ゲーム作り（ピンポンゲームに音を追加、背景の変更、BGMを追加）
-1. June 12. Scratch ピンポンゲームに加速度の実現（ビデオを見せる）、角度に難易度; 準備Eテレ
-1. June 15. Scratch ストーリー作り
-1. June 19. Scratch 画像の取り込み、BGMの追加（何週でも伸ばしてよし）
-1. June 22. Scratch ストーリーの完成、レポート作成（あるいはScratchで公開）
-1. June 29. Scratch 動画の入力
-1. July 03. Scratch 面積の検出
-1. July 06. Scratch 動画利用ゲーム作り
-1. July 10. Scratch 動画利用ゲーム作り2、レポート作成
-1. July 13. Scratch LEGO イントロ
-1. July 17. Scratch LEGO リモコン操作
-1. July 20. Scratch LEGO 加速度の実現
-1. July 24. 祝日
-1. July 27. Scratch LEGO 線のトレース
-1. July 31. Scratch LEGO 障害物の検知
-1. Aug. 03. Scratch LEGO コントロール画面の作成
-1. Aug. 07. Scratch LEGO 障害物の検知2
-1. Aug. 10. 祝日
-1. Aug. 14. Scratch LEGO 作品の完成、レポート作成
-1. Aug. 17. p5js 文法作画関数、色と形入力
-1. Aug. 21. p5js マウス、キーボード
-1. Aug. 24. p5js 条件分岐、繰り返し
-1. Aug. 28. p5js Scratchからの簡単な移植
-1. Aug. 31. p5js 抽象画像の自律的アニメーション
-1. Sep. 04. p5js 抽象画像の3体アニメーション
-1. Sep. 07. p5js 配列？
-1. Sep. 11. p5js 抽象画像の群アニメーション（蛇）
-1. Sep. 14. p5js クラスとメソッド
-1. Sep. 18. p5js 個性的群アニメーション
-1. Sep. 21. 祝日
-1. Sep. 25. p5js 3次元オブジェクト
-1. Sep. 28. p5js 3次元オブジェクト、テクスチャ、動き
-1. Oct. 02. p5js ロボットの作成
-1. Oct. 05. p5js ロボットの移動
-1. Oct. 09. p5js Scratchからの移植
-1. Oct. 12. p5js 音との連動
-1. Oct. 16. p5js ビデオ入力と加工
-1. Oct. 19. p5js ビデオ入力の利用、作品作成
+- [ ] June 03. Scratch 導入 + Scratch 自習
+- [ ] June 05. Scratch 条件分岐、繰返し, メッセージ、変数
+- [ ] June 08. Scratch カードを終わらせる。ゲーム作り（ピンポンゲームに音を追加、背景の変更、BGMを追加）
+- [ ] June 12. Scratch ピンポンゲームに加速度の実現（ビデオを見せる）、角度に難易度; 準備Eテレ
+- [ ] June 15. Scratch ストーリー作り
+- [ ] June 19. Scratch 画像の取り込み、BGMの追加（何週でも伸ばしてよし）
+- [ ] June 22. Scratch ストーリーの完成、レポート作成（あるいはScratchで公開）
+- [ ] June 29. Scratch 動画の入力
+- [ ] July 03. Scratch 面積の検出
+- [ ] July 06. Scratch 動画利用ゲーム作り
+- [ ] July 10. Scratch 動画利用ゲーム作り2、レポート作成
+- [ ] July 13. Scratch LEGO イントロ
+- [ ] July 17. Scratch LEGO リモコン操作
+- [ ] July 20. Scratch LEGO 加速度の実現
+- [ ] July 24. 祝日
+- [ ] July 27. Scratch LEGO 線のトレース
+- [ ] July 31. Scratch LEGO 障害物の検知
+- [ ] Aug. 03. Scratch LEGO コントロール画面の作成
+- [ ] Aug. 07. Scratch LEGO 障害物の検知2
+- [ ] Aug. 10. 祝日
+- [ ] Aug. 14. Scratch LEGO 作品の完成、レポート作成
+- [ ] Aug. 17. p5js 文法作画関数、色と形入力
+- [ ] Aug. 21. p5js マウス、キーボード
+- [ ] Aug. 24. p5js 条件分岐、繰り返し
+- [ ] Aug. 28. p5js Scratchからの簡単な移植
+- [ ] Aug. 31. p5js 抽象画像の自律的アニメーション
+- [ ] Sep. 04. p5js 抽象画像の3体アニメーション
+- [ ] Sep. 07. p5js 配列？
+- [ ] Sep. 11. p5js 抽象画像の群アニメーション（蛇）
+- [ ] Sep. 14. p5js クラスとメソッド
+- [ ] Sep. 18. p5js 個性的群アニメーション
+- [ ] Sep. 21. 祝日
+- [ ] Sep. 25. p5js 3次元オブジェクト
+- [ ] Sep. 28. p5js 3次元オブジェクト、テクスチャ、動き
+- [ ] Oct. 02. p5js ロボットの作成
+- [ ] Oct. 05. p5js ロボットの移動
+- [ ] Oct. 09. p5js Scratchからの移植
+- [ ] Oct. 12. p5js 音との連動
+- [ ] Oct. 16. p5js ビデオ入力と加工
+- [ ] Oct. 19. p5js ビデオ入力の利用、作品作成
 
 ### Uncertain
 

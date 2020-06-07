@@ -14,12 +14,12 @@
 - [ ] July 13. Scratch LEGO イントロ
 - [ ] July 17. Scratch LEGO リモコン操作
 - [ ] July 20. Scratch LEGO 加速度の実現
-- [ ] July 24. 祝日
+- July 24. 祝日
 - [ ] July 27. Scratch LEGO 線のトレース
 - [ ] July 31. Scratch LEGO 障害物の検知
 - [ ] Aug. 03. Scratch LEGO コントロール画面の作成
 - [ ] Aug. 07. Scratch LEGO 障害物の検知2
-- [ ] Aug. 10. 祝日
+- Aug. 10. 祝日
 - [ ] Aug. 14. Scratch LEGO 作品の完成、レポート作成
 - [ ] Aug. 17. p5js 文法作画関数、色と形入力
 - [ ] Aug. 21. p5js マウス、キーボード
@@ -31,7 +31,7 @@
 - [ ] Sep. 11. p5js 抽象画像の群アニメーション（蛇）
 - [ ] Sep. 14. p5js クラスとメソッド
 - [ ] Sep. 18. p5js 個性的群アニメーション
-- [ ] Sep. 21. 祝日
+- Sep. 21. 祝日
 - [ ] Sep. 25. p5js 3次元オブジェクト
 - [ ] Sep. 28. p5js 3次元オブジェクト、テクスチャ、動き
 - [ ] Oct. 02. p5js ロボットの作成

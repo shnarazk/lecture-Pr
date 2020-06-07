@@ -1,8 +1,8 @@
 # lecture-Pr: プログラミング
 
-- [ ] June 03. Scratch 導入 + Scratch 自習
-- [ ] June 05. Scratch 条件分岐、繰返し, メッセージ、変数
-- [ ] June 08. Scratch カードを終わらせる。ゲーム作り（ピンポンゲームに音を追加、背景の変更、BGMを追加）
+- [x] June 03. Scratch 導入 + Scratch 自習
+- [x] June 05. Scratch 条件分岐、繰返し, メッセージ、変数
+- [ ] June 08. Scratch カードを終わらせる。ゲーム改良（ピンポンゲームに音を追加、背景の変更、BGMを追加）
 - [ ] June 12. Scratch ピンポンゲームに加速度の実現（ビデオを見せる）、角度に難易度; 準備Eテレ
 - [ ] June 15. Scratch ストーリー作り
 - [ ] June 19. Scratch 画像の取り込み、BGMの追加（何週でも伸ばしてよし）

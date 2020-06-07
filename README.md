@@ -21,27 +21,43 @@
 - [ ] Aug. 07. Scratch LEGO 障害物の検知2
 - Aug. 10. 祝日
 - [ ] Aug. 14. Scratch LEGO 作品の完成、レポート作成
-- [ ] Aug. 17. p5js 文法作画関数、色と形入力
-- [ ] Aug. 21. p5js マウス、キーボード
-- [ ] Aug. 24. p5js 条件分岐、繰り返し
-- [ ] Aug. 28. p5js Scratchからの簡単な移植
-- [ ] Aug. 31. p5js 抽象画像の自律的アニメーション
-- [ ] Sep. 04. p5js 抽象画像の3体アニメーション
-- [ ] Sep. 07. p5js 配列？
-- [ ] Sep. 11. p5js 抽象画像の群アニメーション（蛇）
-- [ ] Sep. 14. p5js クラスとメソッド
-- [ ] Sep. 18. p5js 個性的群アニメーション
+- [ ] Aug. 17. Swift playgrounds コードを学ぼう1 コマンド、関数
+- [ ] Aug. 21. Swift playgrounds コードを学ぼう1 forループ, 条件分岐コード
+- [ ] Aug. 24. Swift playgrounds コードを学ぼう1 論理演算子, whileループ
+- [ ] Aug. 28. Swift playgrounds コードを学ぼう1 アルゴリズム
+- [ ] Aug. 31. Swift playgrounds ブロック崩し、コードマシン、じゃんけん
+- [ ] Sep. 04. Swift playgrounds コードを学ぼう2 変数、型
+- [ ] Sep. 07. Swift playgrounds コードを学ぼう2 初期化、パラメータ
+- [ ] Sep. 11. Swift playgrounds コードを学ぼう2 ステージを作る
+- [ ] Sep. 14. Swift playgrounds コードを学ぼう2 配列
+- [ ] Sep. 18. Swift playgrounds Bluの冒険
 - Sep. 21. 祝日
-- [ ] Sep. 25. p5js 3次元オブジェクト
-- [ ] Sep. 28. p5js 3次元オブジェクト、テクスチャ、動き
-- [ ] Oct. 02. p5js ロボットの作成
-- [ ] Oct. 05. p5js ロボットの移動
-- [ ] Oct. 09. p5js Scratchからの移植
-- [ ] Oct. 12. p5js 音との連動
-- [ ] Oct. 16. p5js ビデオ入力と加工
-- [ ] Oct. 19. p5js ビデオ入力の利用、作品作成
+- [ ] Sep. 25. Swift playgrounds 暗号、音楽のワークショップ
+- [ ] Swift playgrounds ...
 
 ### Uncertain
+
+- [ ] Sep. 28. p5js 文法作画関数、色と形入力
+- [ ] Oct. 02. p5js マウス、キーボード
+- [ ] Oct. 05. p5js 条件分岐、繰り返し
+- [ ] Oct. 09. p5js Scratchからの簡単な移植
+- [ ] Oct. 12. p5js 抽象画像の自律的アニメーション
+- [ ] Oct. 16. p5js 抽象画像の3体アニメーション
+- [ ] Oct. 19. p5js 配列？
+- [ ] Oct. 23. p5js 抽象画像の群アニメーション（蛇）
+- [ ] Oct. 26. p5js クラスとメソッド
+- [ ] Oct. 30. p5js 個性的群アニメーション
+- [ ] Nov. 02. p5js 3次元オブジェクト
+- [ ] Nov. 06. p5js 3次元オブジェクト、テクスチャ、動き
+- [ ] Nov. 09. p5js ロボットの作成
+- [ ] Nov. 13. p5js ロボットの移動
+- [ ] Nov. 16. p5js Scratchからの移植
+- [ ] Nov. 20. p5js 音との連動
+- Nov. 23. 祝日
+- [ ] Nov. 27. p5js ビデオ入力と加工
+- [ ] Nov. 30. p5js ビデオ入力の利用、作品作成
+
+### Future plan
 
 * loadJSON, 天気データJSONの処理
 * 別のサーバ（最新ニュース）からデータ取得する演習

@@ -2,10 +2,10 @@
 
 - [x] June 03. Scratch 導入 + Scratch 自習
 - [x] June 05. Scratch 条件分岐、繰返し, メッセージ、変数
-- [ ] June 08. Scratch カードを終わらせる。ゲーム改良（ピンポンゲームに音を追加、背景の変更、BGMを追加）
+- [x] June 08. Scratch カードを終わらせる。ゲーム改良（ピンポンゲームに音を追加、背景の変更、BGMを追加）
 - [ ] June 12. Scratch ピンポンゲームに加速度の実現（ビデオを見せる）、角度に難易度; 準備Eテレ
-- [ ] June 15. Scratch ストーリー作り
-- [ ] June 19. Scratch 画像の取り込み、BGMの追加（何週でも伸ばしてよし）
+- [x] July 15. 祝日
+- [ ] June 19. Scratch ストーリー作り、画像の取り込み、BGMの追加（何週でも伸ばしてよし）
 - [ ] June 22. Scratch ストーリーの完成、レポート作成（あるいはScratchで公開）
 - [ ] June 29. Scratch 動画の入力
 - [ ] July 03. Scratch 面積の検出
@@ -14,12 +14,12 @@
 - [ ] July 13. Scratch LEGO イントロ
 - [ ] July 17. Scratch LEGO リモコン操作
 - [ ] July 20. Scratch LEGO 加速度の実現
-- July 24. 祝日
+- [x] July 24. 祝日
 - [ ] July 27. Scratch LEGO 線のトレース
 - [ ] July 31. Scratch LEGO 障害物の検知
 - [ ] Aug. 03. Scratch LEGO コントロール画面の作成
 - [ ] Aug. 07. Scratch LEGO 障害物の検知2
-- Aug. 10. 祝日
+- [x] Aug. 10. 祝日
 - [ ] Aug. 14. Scratch LEGO 作品の完成、レポート作成
 - [ ] Aug. 17. Swift playgrounds コードを学ぼう1 コマンド、関数
 - [ ] Aug. 21. Swift playgrounds コードを学ぼう1 forループ, 条件分岐コード
@@ -31,7 +31,7 @@
 - [ ] Sep. 11. Swift playgrounds コードを学ぼう2 ステージを作る
 - [ ] Sep. 14. Swift playgrounds コードを学ぼう2 配列
 - [ ] Sep. 18. Swift playgrounds Bluの冒険
-- Sep. 21. 祝日
+- [x] Sep. 21. 祝日
 - [ ] Sep. 25. Swift playgrounds 暗号、音楽のワークショップ
 - [ ] Swift playgrounds ...
 
